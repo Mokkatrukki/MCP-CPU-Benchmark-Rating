@@ -1,10 +1,10 @@
 # CPU Benchmark Rating
 
-A project for analyzing and comparing CPU benchmark ratings.
+A Model Context Protocol (MCP) plugin for analyzing and comparing CPU benchmark ratings.
 
 ## Description
 
-This application provides tools and interfaces for analyzing CPU performance benchmarks and ratings.
+This application provides tools and interfaces for analyzing CPU performance benchmarks and ratings as a MCP plugin. It can be integrated with the MCP inspector tool for development and testing.
 
 ## Getting Started
 
@@ -36,6 +36,20 @@ npm run dev
 # or
 yarn dev
 ```
+
+### Building and Testing the Plugin
+
+1. Build the plugin:
+```bash
+npm run build
+```
+
+2. Test the plugin using the MCP inspector tool:
+```bash
+npx @modelcontextprotocol/inspector node build/index.js
+```
+
+This will launch the MCP inspector tool where you can test and debug the plugin's functionality.
 
 ## Project Structure
 
